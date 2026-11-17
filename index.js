@@ -16,7 +16,7 @@ import routes from './src/routes.js';
 const server = http.createServer();
 const app = express();
 const __dirname = process.cwd();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 
 // Enable compression for better speed
